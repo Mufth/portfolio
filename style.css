@@ -11,6 +11,7 @@ html {
 .header-container {
     height: 3rem;
     width: 100%;
+    background-color: lightcyan;
     position: fixed;
     top: 0;
     left: 0;
@@ -51,7 +52,35 @@ html {
 /* Main hero-section */
 
 .container {
-    width: 100%;
+    width: 80%;
     height: 100vh;
-    margin-top: 50px;
+    margin: 70px auto 0;
+}
+
+/* Projects */
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+    padding: 0 1rem;
+    width: 500px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.project-img {
+    width: 50%;
+    height: 50%;
+   /*  object-fit: cover; */
+    border: 1px dotted black;
+}
+
+
+/* About */
+
+.about img {
+    width: 300px;
+    height: 300px;
 }
